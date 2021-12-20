@@ -52,7 +52,11 @@
 > cp bin/masscan /bin/masscan
 >
 > git clone https://github.com/grayddq/PublicMonitors.git
+>
+> ##### 注意：Python 2的环境最高支持pip20，pip21已经不再支持python2.7
 > 
+> easy_install pip=20.3.4
+>
 > sudo pip install -U pip
 >
 > sudo pip install -r requirements.txt
