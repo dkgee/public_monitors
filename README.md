@@ -64,6 +64,7 @@
 > ##### 第二种方法安装pip
 >
 > curl https://bootstrap.pypa.io/pip/2.7/get-pip.py  -o get-pip.py
+> 
 > sudo python get-pip.py 
 > 
 
