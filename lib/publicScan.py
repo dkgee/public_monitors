@@ -38,8 +38,8 @@ class PublicScan:
         if os.path.exists(tmpfile):
             ip_file= "tmp/ip_" + time.strftime('%Y%m%d') + ".txt"
             os.system('cut -d " " -f4 %s > %s' % (tmpfile, ip_file))
-            if os.path.exists(ip_file):
-                os.remove(tmpfile)
+            # if os.path.exists(ip_file):
+            #    os.remove(tmpfile)
             return True
         else:
             return False
