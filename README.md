@@ -131,3 +131,7 @@
 ![Screenshot](pic/222.png)
 
 ![Screenshot](pic/333.png)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=dkgee/public_monitors&type=Date)](https://star-history.com/#dkgee/public_monitors&Date)
