@@ -42,6 +42,8 @@
 > yum install git gcc make libpcap-devel.x86_64
 > 
 > wget https://github.com/robertdavidgraham/masscan/archive/1.0.4.tar.gz
+>
+> wget https://github.com/robertdavidgraham/masscan/archive/refs/tags/1.3.2.tar.gz   (最新版，下面需要修改)
 > 
 > tar -zxvf 1.0.4.tar.gz
 > 
