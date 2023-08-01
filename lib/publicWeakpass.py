@@ -49,8 +49,9 @@ class Weakpass_Scan():
                                 host, port, server, user, password))
                         value = {'host': host, 'port': port, 'server': server, 'user': user, 'password': password}
                         self.weakpass_result.append(value)
-        except Exception, e:
-            print "hydra Error %s" % (str(e))
+        except Exception as e:
+            # print "hydra Error %s" % (str(e))
+            print("hydra Error %s" % (str(e)))
 
     def readInfo(self):
         if os.path.exists(self.target_file):
