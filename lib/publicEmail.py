@@ -78,7 +78,7 @@ class Send_Email:
                 s.sendmail(self.user, self.toemail, msg.as_string())
                 s.close()
                 break
-            except smtplib.SMTPException, e:
+            except smtplib.SMTPException as e:
                 error += 1
                 logger.infostring('sending mail failure,error: %s' % e.message)
                 continue
